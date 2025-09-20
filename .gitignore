@@ -416,3 +416,20 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Flutter build outputs
+build/
+.ios/
+.android/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# Firebase keys (Flutter)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Dart environment
+.env
+*.env
